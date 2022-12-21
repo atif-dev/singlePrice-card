@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  font-family: "Karla", sans-serif;
+  background: #E6EFF6;
+}
+
+h1 {
+  color: #43ADAB;
+  font-size: 1.8rem;
+  margin-bottom: 0.9em;
+}
+
+.heading-2 {
+  color: hsl(71deg, 73%, 54%);
+  font-size: 1.3rem;
+  margin-bottom: 0.8em;
+}
+
+.para {
+  color: #A1A5AE;
+  line-height: 1.8em;
+}
+
+.container {
+  background: white;
+  border-radius: 0.5em;
+}
+.container .first-child {
+  margin-bottom: 3em;
+  padding-top: 2.5em;
+  padding-left: 2.8em;
+  padding-right: 5.2em;
+}
+.container .sec-child {
+  display: flex;
+  justify-content: space-between;
+}
+.container .sec-child .sec-child1 {
+  background: hsl(179deg, 62%, 43%);
+  padding-top: 2.5em;
+  padding-left: 2.8em;
+  padding-right: 2.8em;
+  padding-bottom: 2.5em;
+  color: white;
+  width: 50.1%;
+  border-bottom-left-radius: 0.5em;
+}
+.container .sec-child .sec-child1 .btn {
+  background: hsl(71deg, 73%, 54%);
+  padding: 0.8em 1em;
+  width: 100%;
+  border-radius: 0.3em;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Karla", sans-serif;
+  border: none;
+  margin-top: 1.8em;
+  color: rgb(251, 255, 176);
+}
+.container .sec-child .sec-child1 .btn:hover {
+  cursor: pointer;
+}
+.container .sec-child .sec-child1 h3 {
+  margin-bottom: 1em;
+}
+.container .sec-child .sec-child1 .dollar {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1em;
+}
+.container .sec-child .sec-child1 #rate {
+  color: #F1FFF2;
+  margin-left: 1em;
+  position: relative;
+  bottom: 0.27em;
+}
+.container .sec-child .sec-child1 .time {
+  margin-top: 0.5em;
+  columns: red;
+}
+.container .sec-child .sec-child2 {
+  background: #48BFBD;
+  padding-top: 2.5em;
+  padding-left: 2.8em;
+  padding-right: 5.2em;
+  width: 50%;
+  border-bottom-right-radius: 0.5em;
+}
+.container .sec-child .sec-child2 .q {
+  margin-top: -0.25em;
+  margin-bottom: 0.9em;
+  color: #DFFFFF;
+  font-size: 1.2rem;
+}
+.container .sec-child .sec-child2 li {
+  margin-top: 0.2em;
+  font-size: 0.9rem;
+  color: #B1F7F7;
+}
+.container ul {
+  list-style: none;
+}
+
+@media (max-width: 700px) {
+  .sec-child {
+    flex-direction: column;
+  }
+  .para .break {
+    display: none;
+  }
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .container .sec-child .sec-child1 {
+    width: 100%;
+    border-bottom-left-radius: 0;
+  }
+  .container .sec-child .sec-child2 {
+    padding-top: 2.2em;
+    padding-bottom: 2em;
+    width: 100%;
+    border-bottom-left-radius: 0.5em;
+  }
+}
+@media (max-width: 375px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  .sec-child {
+    flex-direction: column;
+  }
+  .heading-2 {
+    font-size: 1.1rem;
+  }
+  .para {
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
+  .first-child {
+    margin-bottom: 3em;
+    padding-top: 2.5em;
+    padding-left: 2.8em;
+    padding-right: 5.2em;
+  }
+  .container .sec-child .sec-child2 {
+    padding-top: 2.2em;
+    padding-bottom: 2em;
+  }
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .container .sec-child .q {
+    font-size: 1.3rem;
+  }
+  .container .sec-child .sec-child1 .btn {
+    font-size: 0.94rem;
+  }
+}
+footer {
+  position: relative;
+  bottom: -1rem;
+  font-size: 1rem;
+}
+
+.attribution {
+  text-align: center;
+  color: grey;
+  transition: all ease 0.5s;
+}
+
+.attribution a {
+  color: indigo;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.attribution:hover {
+  transform: scale(1.02);
+  transition: all ease 0.5s;
+}
+
+.attribution {
+  visibility: hidden;
+  animation: Animation 0s ease-in 5s forwards;
+  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes Animation {
+  to {
+    visibility: visible;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
