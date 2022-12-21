@@ -4,7 +4,7 @@
 
 # Frontend Mentor - Single price grid component
 
-This is a solution to the [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Single price grid component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) by frontendmentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -27,14 +27,14 @@ This is a solution to the [Single price grid component](https://www.frontendment
 
 ### Screenshots
 
-![PC View](https://github.com/atif-dev/stats-preview__card/blob/main/screenshots/pc.png?raw=true)
-![Mobile view](https://github.com/atif-dev/stats-preview__card/blob/main/screenshots/mobile.png?raw=true)
+![PC View](https://github.com/atif-dev/singlePrice-card/blob/main/screenshots/PC%201.png?raw=true)
+![Mobile view](https://github.com/atif-dev/singlePrice-card/blob/main/screenshots/Mobile.png?raw=true)
 
 ### Links
 
-- Frontend Mentor solution url:  https://www.frontendmentor.io/solutions/nft-preview-card-component-esjPYS6HLk
-- Live Site URL: https://atif-dev.github.io/stats-preview__card//
-- GitHub repo : https://github.com/atif-dev/stats-preview__card
+- Frontend Mentor solution url:  https://www.frontendmentor.io/solutions/single-price-grid-component-q3sB7GyqDi
+- Live Site URL: https://atif-dev.github.io/singlePrice-card/
+- GitHub repo : https://github.com/atif-dev/singlePrice-card
 
 ## My process
 
