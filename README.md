@@ -67,6 +67,7 @@ This is a solution to the [Single price grid component](https://www.frontendment
 - [Desktop app for checking responsiveness](https://responsively.app/) - Download windows application for checking responsiveness.
 - [Learn Resposiveness](https://web.dev/learn/design/) - Read to find about responsiveness.
 - [Learn centering in css](https://moderncss.dev/complete-guide-to-centering-in-css/) - Read to find about centering.
+- [SCSS](https://moderncss.dev/complete-guide-to-centering-in-css/) - Learn to use SCSS using terminal.
 
 ## Author
 
