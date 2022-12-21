@@ -65,8 +65,8 @@ This is a solution to the [Single price grid component](https://www.frontendment
 - [Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) - This is nice short free course for learning responsiveness.
 - [Check responsiveness](https://www.lambdatest.com/mobile-view-website) - NICE website for checking responsiveness and taking good looking screen shots.
 - [Desktop app for checking responsiveness](https://responsively.app/) - Download windows application for checking responsiveness.
-- [Learn Resposiveness](https://web.dev/learn/design/) - Read to find about responsiveness.
-- [Learn centering in css](https://moderncss.dev/complete-guide-to-centering-in-css/) - Read to find about centering.
+- [Learn Resposiveness](https://web.dev/learn/design/) - Find about responsiveness.
+- [Learn centering in css](https://moderncss.dev/complete-guide-to-centering-in-css/) - Learn different possible ways for centering CSS.
 - [SCSS](https://moderncss.dev/complete-guide-to-centering-in-css/) - Learn to use SCSS using terminal.
 
 ## Author
